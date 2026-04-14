@@ -1,0 +1,271 @@
+# -----------------------------------------------------------------------------
+# OS / file explorer noise
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+ehthumbs.db
+
+# -----------------------------------------------------------------------------
+# Editor / IDE
+# -----------------------------------------------------------------------------
+.idea/
+.vscode/
+*.code-workspace
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------------------------------------
+# Logs / temp / local runtime files
+# -----------------------------------------------------------------------------
+*.log
+*.out
+*.err
+*.pid
+*.pid.lock
+*.seed
+*.stackdump
+logs/
+tmp/
+temp/
+.tmp/
+
+# -----------------------------------------------------------------------------
+# Environment / secrets / local config
+# Keep example files like .env.example committed.
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.secret
+secrets/
+
+# -----------------------------------------------------------------------------
+# Git / patch leftovers
+# -----------------------------------------------------------------------------
+*.orig
+*.rej
+
+# -----------------------------------------------------------------------------
+# Python / FastAPI / backend
+# Applies to root-level Python projects and common folder names like backend/
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.Python
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/ENV/
+
+# Packaging / build
+build/
+dist/
+site/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.nox/
+.tox/
+.hypothesis/
+.dmypy.json
+dmypy.json
+
+# Coverage / test artifacts
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+pytestdebug.log
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Framework / app runtime
+instance/
+.webassets-cache
+
+# FastAPI / Uvicorn / local databases
+uvicorn*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend-specific artifacts
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/htmlcov/
+backend/.coverage
+backend/.coverage.*
+backend/dist/
+backend/build/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# -----------------------------------------------------------------------------
+# Dart / Flutter / frontend
+# Applies to root-level Flutter apps and common folder names like frontend/
+# -----------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.packages
+.pub/
+.pub-cache/
+pubspec_overrides.yaml
+
+# Flutter build outputs
+**/build/
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub/
+
+# Flutter / Dart generated or local-only files
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# iOS / macOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcworkspace/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/.symlinks/
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Linux
+**/linux/flutter/ephemeral/
+
+# Web
+**/web/.dart_tool/
+
+# Test / coverage
+frontend/coverage/
+coverage/
+
+# -----------------------------------------------------------------------------
+# Node / frontend tooling (useful if Flutter web or extra frontend tooling exists)
+# -----------------------------------------------------------------------------
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+frontend/node_modules/
+
+# -----------------------------------------------------------------------------
+# Docker / containers / orchestration
+# Keep Dockerfiles and compose files committed.
+# -----------------------------------------------------------------------------
+.docker/
+docker-data/
+docker-volumes/
+*.tar
+*.tar.gz
+*.tgz
+
+# Docker compose overrides often hold machine-specific values
+docker-compose.override.yml
+compose.override.yml
+
+# Local container env files
+.env.docker
+.env.compose
+
+# -----------------------------------------------------------------------------
+# Database / cache services local data
+# -----------------------------------------------------------------------------
+postgres_data/
+mysql_data/
+mariadb_data/
+mongo_data/
+redis_data/
+data/
+
+# -----------------------------------------------------------------------------
+# Infrastructure / deployment helpers
+# -----------------------------------------------------------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.serverless/
+.aws-sam/
+
+# -----------------------------------------------------------------------------
+# Static analysis / reports
+# -----------------------------------------------------------------------------
+.cache/
+.sass-cache/
+.eslintcache
+
+# -----------------------------------------------------------------------------
+# Project-specific optional ignores
+# Uncomment if you later generate uploads or media locally.
+# -----------------------------------------------------------------------------
+# backend/uploads/
+# backend/media/
+# frontend/assets/generated/
