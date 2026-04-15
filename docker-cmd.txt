@@ -4,3 +4,5 @@ BUILD IMAGE :
 RUN CONTAINER : (*Container sebagai adidaya penjalanan image)
     docker run -d -p 8000:8000 --name fastapi_container fastapi_app        ([*-d = jalankan di background | *-p = port | *8000:8000 = port 8000 di kontainer dan 8000 di OS sekarang | *lokasiAkhir = namaImage yang dibuat sebelumnya])
 
+RUN COMPOSE :   (*Compose merupakan file yang menghandle jalannya sebuah service lebih dari 1)
+    docker compose up           
